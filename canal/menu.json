@@ -1,21 +1,24 @@
 [
  {
-  "id": "brewed-coffee-of-the-day",
-  "name": "Brewed Coffee of the Day",
+  "id": "brewed-coffee",
+  "name": "Brewed Coffee",
   "category": "Coffee",
   "description": "Our rotating single-origin, brewed fresh every half hour.",
   "prices": {
-   "16 oz": 2.85,
-   "20 oz": 3.25
+   "S": 2.45,
+   "M": 2.85,
+   "L": 3.25
   }
  },
  {
-  "id": "double-espresso",
-  "name": "Double Espresso",
+  "id": "espresso",
+  "name": "Espresso",
   "category": "Coffee",
   "description": "Two shots of our house espresso blend.",
   "prices": {
-   "One size": 3.0
+   "S": 2.6,
+   "M": 3.0,
+   "L": 3.4
   }
  },
  {
@@ -24,8 +27,9 @@
   "category": "Coffee",
   "description": "Espresso topped with hot water for a long, smooth cup.",
   "prices": {
-   "16 oz": 3.75,
-   "20 oz": 4.25
+   "S": 3.35,
+   "M": 3.75,
+   "L": 4.15
   }
  },
  {
@@ -34,8 +38,9 @@
   "category": "Coffee",
   "description": "Espresso with steamed milk and a thin layer of foam.",
   "prices": {
-   "16 oz": 4.75,
-   "20 oz": 5.25
+   "S": 4.35,
+   "M": 4.75,
+   "L": 5.15
   }
  },
  {
@@ -44,8 +49,9 @@
   "category": "Coffee",
   "description": "Equal parts espresso, steamed milk and velvety foam.",
   "prices": {
-   "16 oz": 4.6,
-   "20 oz": 5.1
+   "S": 4.2,
+   "M": 4.6,
+   "L": 5.0
   }
  },
  {
@@ -54,8 +60,9 @@
   "category": "Coffee",
   "description": "Espresso, dark chocolate and steamed milk.",
   "prices": {
-   "16 oz": 5.25,
-   "20 oz": 5.75
+   "S": 4.85,
+   "M": 5.25,
+   "L": 5.65
   }
  },
  {
@@ -64,8 +71,9 @@
   "category": "Coffee",
   "description": "Espresso, pumpkin, cinnamon and nutmeg. Seasonal.",
   "prices": {
-   "16 oz": 5.5,
-   "20 oz": 5.95
+   "S": 5.1,
+   "M": 5.5,
+   "L": 5.9
   }
  },
  {
@@ -74,7 +82,9 @@
   "category": "Coffee",
   "description": "Espresso cut with an equal amount of warm milk.",
   "prices": {
-   "One size": 3.95
+   "S": 3.55,
+   "M": 3.95,
+   "L": 4.35
   }
  },
  {
@@ -83,8 +93,9 @@
   "category": "Coffee",
   "description": "Our cold brew infused with nitrogen, served on tap.",
   "prices": {
-   "16 oz": 5.25,
-   "20 oz": 5.95
+   "S": 4.85,
+   "M": 5.25,
+   "L": 5.65
   }
  },
  {
@@ -93,8 +104,9 @@
   "category": "Tea",
   "description": "Ceremonial-grade matcha whisked with steamed milk.",
   "prices": {
-   "16 oz": 5.45,
-   "20 oz": 5.95
+   "S": 5.05,
+   "M": 5.45,
+   "L": 5.85
   }
  },
  {
@@ -103,16 +115,16 @@
   "category": "Food",
   "description": "Twice-baked croissant filled with almond cream.",
   "prices": {
-   "One size": 3.85
+   "Each": 3.85
   }
  },
  {
-  "id": "wild-blueberry-muffin",
-  "name": "Wild Blueberry Muffin",
+  "id": "blueberry-muffin",
+  "name": "Blueberry Muffin",
   "category": "Food",
   "description": "Bursting with wild blueberries and a crumb top.",
   "prices": {
-   "One size": 3.45
+   "Each": 3.45
   }
  },
  {
@@ -121,16 +133,16 @@
   "category": "Food",
   "description": "Egg, cheddar and your choice of bacon or sausage.",
   "prices": {
-   "One size": 7.25
+   "Each": 7.25
   }
  },
  {
-  "id": "avo-toast",
-  "name": "Avo Toast",
+  "id": "avocado-toast",
+  "name": "Avocado Toast",
   "category": "Food",
   "description": "Smashed avocado, lemon and chili flakes on sourdough.",
   "prices": {
-   "One size": 8.25
+   "Each": 8.25
   }
  },
  {
@@ -139,7 +151,7 @@
   "category": "Food",
   "description": "A local bagel, toasted, with plain cream cheese.",
   "prices": {
-   "One size": 3.5
+   "Each": 3.5
   }
  }
 ]

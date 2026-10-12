@@ -1,10 +1,9 @@
 // Canal Street Coffee: the menu is not in the HTML. It is fetched from menu.json and
 // drawn into the page after you choose a shop and search (or ask for the full menu).
+// The list shows names only; each item's sizes and prices are on its own page (item.html).
 const PAGE_SIZE = 6;
-const MARKUP = { "Westcott": 0, "Downtown": 0.30 };
 let matches = [], shown = 0, shop = "";
 
-function money(x) { return "$" + x.toFixed(2); }
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 async function load() {
@@ -13,14 +12,12 @@ async function load() {
 }
 
 function card(item) {
-  const prices = Object.values(item.prices).map(p => p + MARKUP[shop]);
   const a = document.createElement("a");
   a.className = "result-card";
   a.href = "item.html?id=" + encodeURIComponent(item.id) + "&shop=" + encodeURIComponent(shop);
-  a.innerHTML = "<h3></h3><p class='result-card__category'></p><p class='result-card__from'></p>";
+  a.innerHTML = "<h3></h3><p class='result-card__category'></p>";
   a.querySelector("h3").textContent = item.name;
   a.querySelector(".result-card__category").textContent = item.category;
-  a.querySelector(".result-card__from").textContent = "from " + money(Math.min(...prices));
   return a;
 }
 
