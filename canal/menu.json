@@ -1,0 +1,145 @@
+[
+ {
+  "id": "brewed-coffee-of-the-day",
+  "name": "Brewed Coffee of the Day",
+  "category": "Coffee",
+  "description": "Our rotating single-origin, brewed fresh every half hour.",
+  "prices": {
+   "16 oz": 2.85,
+   "20 oz": 3.25
+  }
+ },
+ {
+  "id": "double-espresso",
+  "name": "Double Espresso",
+  "category": "Coffee",
+  "description": "Two shots of our house espresso blend.",
+  "prices": {
+   "One size": 3.0
+  }
+ },
+ {
+  "id": "caffe-americano",
+  "name": "Caffè Americano",
+  "category": "Coffee",
+  "description": "Espresso topped with hot water for a long, smooth cup.",
+  "prices": {
+   "16 oz": 3.75,
+   "20 oz": 4.25
+  }
+ },
+ {
+  "id": "latte",
+  "name": "Latte",
+  "category": "Coffee",
+  "description": "Espresso with steamed milk and a thin layer of foam.",
+  "prices": {
+   "16 oz": 4.75,
+   "20 oz": 5.25
+  }
+ },
+ {
+  "id": "cappuccino",
+  "name": "Cappuccino",
+  "category": "Coffee",
+  "description": "Equal parts espresso, steamed milk and velvety foam.",
+  "prices": {
+   "16 oz": 4.6,
+   "20 oz": 5.1
+  }
+ },
+ {
+  "id": "mochaccino",
+  "name": "Mochaccino",
+  "category": "Coffee",
+  "description": "Espresso, dark chocolate and steamed milk.",
+  "prices": {
+   "16 oz": 5.25,
+   "20 oz": 5.75
+  }
+ },
+ {
+  "id": "psl",
+  "name": "PSL",
+  "category": "Coffee",
+  "description": "Espresso, pumpkin, cinnamon and nutmeg. Seasonal.",
+  "prices": {
+   "16 oz": 5.5,
+   "20 oz": 5.95
+  }
+ },
+ {
+  "id": "cortado",
+  "name": "Cortado",
+  "category": "Coffee",
+  "description": "Espresso cut with an equal amount of warm milk.",
+  "prices": {
+   "One size": 3.95
+  }
+ },
+ {
+  "id": "nitro-cold-brew",
+  "name": "Nitro Cold Brew",
+  "category": "Coffee",
+  "description": "Our cold brew infused with nitrogen, served on tap.",
+  "prices": {
+   "16 oz": 5.25,
+   "20 oz": 5.95
+  }
+ },
+ {
+  "id": "matcha-latte",
+  "name": "Matcha Latte",
+  "category": "Tea",
+  "description": "Ceremonial-grade matcha whisked with steamed milk.",
+  "prices": {
+   "16 oz": 5.45,
+   "20 oz": 5.95
+  }
+ },
+ {
+  "id": "almond-croissant",
+  "name": "Almond Croissant",
+  "category": "Food",
+  "description": "Twice-baked croissant filled with almond cream.",
+  "prices": {
+   "One size": 3.85
+  }
+ },
+ {
+  "id": "wild-blueberry-muffin",
+  "name": "Wild Blueberry Muffin",
+  "category": "Food",
+  "description": "Bursting with wild blueberries and a crumb top.",
+  "prices": {
+   "One size": 3.45
+  }
+ },
+ {
+  "id": "breakfast-sandwich",
+  "name": "Breakfast Sandwich",
+  "category": "Food",
+  "description": "Egg, cheddar and your choice of bacon or sausage.",
+  "prices": {
+   "One size": 7.25
+  }
+ },
+ {
+  "id": "avo-toast",
+  "name": "Avo Toast",
+  "category": "Food",
+  "description": "Smashed avocado, lemon and chili flakes on sourdough.",
+  "prices": {
+   "One size": 8.25
+  }
+ },
+ {
+  "id": "bagel--cream-cheese",
+  "name": "Bagel & Cream Cheese",
+  "category": "Food",
+  "description": "A local bagel, toasted, with plain cream cheese.",
+  "prices": {
+   "One size": 3.5
+  }
+ }
+]
